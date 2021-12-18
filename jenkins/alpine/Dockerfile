@@ -4,12 +4,12 @@ RUN apk add openssh && \
     apk add openrc && \
     apk add --no-cache \
         python3 \
-        py3-pip \
-    && pip3 install --upgrade pip \
-    && pip3 install --no-cache-dir \
-        awscli \
-    && rm -rf /var/cache/apk/*
-
+        py3-pip  && \
+    pip3 install --upgrade pip && \
+    pip3 install --no-cache-dir \
+        awscli && \
+    rm -rf /var/cache/apk/* && \
+    apk add mysql mysql-client
 
 RUN addgroup -S remote_user && adduser -S remote_user -G remote_user && \
     printf "1234\n1234" | passwd remote_user && \
