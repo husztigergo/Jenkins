@@ -1,0 +1,19 @@
+Started by user [8mha:////4Et0Ii4a0Cq2qvI+C1JVI8tITAx72AruHsKYcMsU59/xAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my_first_job
+[my_first_job] $ /bin/sh -xe /tmp/jenkins2966520170086933386.sh
++ ssh -i /tmp/remote-host remote_user@remote-host
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.72-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
++ echo Hello World!
+Hello World!
+Finished: SUCCESS
