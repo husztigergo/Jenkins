@@ -13,7 +13,7 @@ services:
     container_name: remote-host
     image: remote-host
     build:
-      context: centos
+      context: alpine
     networks:
       - net
   db_host:
